@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: 'MATLAB code for "Mathematical Modeling of AA Amyloidosis: Coupling SAA–HDL Binding Dynamics with Path-Dependent Renal Aging"'
+abstract: >-
+  MATLAB implementation of the model of AA amyloidosis that couples saturable
+  SAA–HDL binding to renal filtration of free SAA, lysosomal cleavage to AA
+  fragments, Finke–Watzky aggregation, oligomer deposition and fibril
+  turnover, and converts the accumulated damage into a renal biological age.
+  Includes 22 scripts that reproduce every figure and Table 3 of the
+  manuscript, eight supporting routines, and a README that lists the script
+  for each figure. Base MATLAB only; no toolboxes required.
+type: software
+authors:
+  - family-names: Kuznetsov
+    given-names: Andrey V.
+    affiliation: "Department of Mechanical and Aerospace Engineering, North Carolina State University, Raleigh, NC 27695-7910, USA"
+version: v1.0.0
+date-released: 2026-10-31
+license: MIT
+doi: 10.5281/zenodo.23827052
+repository-code: "https://github.com/avkuznet/aa-amyloidosis-renal-aging"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23827052
+    description: Version v1.0.0 of this software
+  - type: doi
+    value: 10.5281/zenodo.23827051
+    description: Concept DOI, always resolving to the latest version
+keywords:
+  - AA amyloidosis
+  - serum amyloid A
+  - HDL
+  - kidney
+  - Finke-Watzky model
+  - biological age
+  - transcritical bifurcation
+  - sensitivity analysis
+  - mathematical modeling
+  - MATLAB
